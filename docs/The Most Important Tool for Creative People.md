@@ -122,11 +122,11 @@ the shit they left at my house,
 
 > 🅰️ *`pictures of bongs`*
 
-their *godawful* cooking, and, of course,
+their *godawful* cooking,
 
-> 🎦 `Tight`
+> 🅰️ *`pictures of fucked up meals`*
 
-the day they all left when they *found out about each other*.
+and, of course, the day they all left when they *found out about each other*.
 
 > 🎦 `Reset`
 
