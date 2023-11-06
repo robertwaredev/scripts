@@ -110,7 +110,7 @@ but for the sake of this discussion, I’ve chosen the following definition:
 
 > 🅰️ `“The interrelated conditions in which something exists or occurs”`
 
-*Ooooh*, sounds *superfuckingboring,* so let's do what people do in video essays and extrapolate the ever loving *shit* out of this.
+*Ooooh*, sounds *superfuckingboring*, so let's do what people do in video essays and extrapolate the ever loving *shit* out of this.
 
 ---
 
@@ -134,7 +134,7 @@ From here on out, we'll just refer to the *entire* realm of… *stuff* simply as
 
 # Attribution Constitution #review
 
-Next key word here is *conditions,* which can't *really* be mentioned without bringing up *attributes* as well. You'll see what I mean in a second here.
+Next key word here is *conditions*, which can't *really* be mentioned without bringing up *attributes* as well. You'll see what I mean in a second here.
 
 In English, a condition and and attribute are defined very similarly, with one definition hinging upon *qualities* and the other upon *characteristics*, so I'd like to set this up in a simple way, and illustrate how one of these relies upon on the other. Let's start with attributes.
 
@@ -154,7 +154,7 @@ For example, adding a planet into the background of a digital painting might fun
 
 > 🅰️ `"The state of something with regard to its appearance, quality, or working order."`
 
-In other words, an aspect of *how* something is, and for our purposes, *how we want it to be*. Assuming we want to change *how something is,* we can *modify* its existing attributes to suit our needs.
+In other words, an aspect of *how* something is, and for our purposes, *how we want it to be*. Assuming we want to change *how something is*, we can *modify* its existing attributes to suit our needs.
 
 For example, changing the colors in your digital painting could change *how* the overall mood is perceived, or turning up the distortion on your song's lead vocal could change *how sharply* it cuts through the other sounds in the mix, which people tend to like.
 
@@ -164,7 +164,7 @@ The differences between *what* and *how* can be subjective, are often a matter o
 
 ## Let me just gut punch you *real quick.*
 
-The song that *you* enjoy the most has all sorts of varying aspects. The song could be *dynamic,* or *lush,* or *uplifting,* or *comforting,* or-
+The song that *you* enjoy the most has all sorts of varying aspects. The song could be *dynamic*, or *lush*, or *uplifting*, or *comforting*, or-
 
 > 🔊 `DAMN SON, WHERE'D YOU FIND THIS?.mp3`
 
@@ -172,7 +172,7 @@ Ooh, sorry about that, accidentally hit my sound board. I guess that still count
 
 You wouldn't play Nicki Minaj's 'Wet Ass Pussy' at your grandmother's funeral. Or maybe you would, I don't fucking know you or how you live your life, *so do what you want*, I guess.
 
-In the case of people, we often confuse our transient, *conditional* temper of mind with our state of being, which we then attribute to our self worth and the *very essence of what and how we are.* But rarely do we consider that others see us as *dynamic,* or *lush,* or *uplifting,* or *comforting,* or-
+In the case of people, we often confuse our transient, *conditional* temper of mind with our state of being, which we then attribute to our self worth and the *very essence of what and how we are.* But rarely do we consider that others see us as *dynamic*, or *lush*, or *uplifting*, or *comforting*, or-
 
 🔊 `DAMN SON, WHERE'D YOU FIND THIS?.mp3`
 
@@ -261,7 +261,7 @@ For example, I believe that the earth is round-
 
 Sorry about him, I can't seem to get rid of him.
 
-I also know that my friend *"Timmy"* is a flat earther because it's been well expressed over many long, *incredibly* frustrating conversations. One of the many relationships between us is based on a certain *attribute* - which shape we believe the Earth is, and it is *not useful* because we *don't fucking agree.* Agreeing would be *useful* because I wouldn't have to fuckin' *hear it every time we hang out,* and would ultimately serve the desired goal of *deradicalizing Timmy.*
+I also know that my friend *"Timmy"* is a flat earther because it's been well expressed over many long, *incredibly* frustrating conversations. One of the many relationships between us is based on a certain *attribute* - which shape we believe the Earth is, and it is *not useful* because we *don't fucking agree.* Agreeing would be *useful* because I wouldn't have to fuckin' *hear it every time we hang out*, and would ultimately serve the desired goal of *deradicalizing Timmy.*
 
 ---
 
@@ -277,15 +277,13 @@ Like when you say water is wet and Timmy says that water *isn't* wet, and that i
 
 Speaking of water,
 
-> 🎦 `Super unnecessary zoom in of me chugging water and gasping for air`
-
-> 🎦 `Wide`
+> 🎦 `Super unnecessary zoom in of me chugging water and gasping for air, reset`
 
 Let's get back to building that garden! What was I saying before? Some pseudo-spiritual bullshit about experiential fertilizer, and… emotional water. Fuck me, *alright*.
 
 > 🎦 `Wide, me face palming and shaking my head`
 
-If you haven't realized yet, this is the part of the script writing process where I *really* just started taking shit up off of the wall. It's *very compelling shit*, if you ask me. *Revolutionary,* maybe. *Delicious,* even. I don't know, probably neither. It's in a bowl over there if you want some.
+If you haven't realized yet, this is the part of the script writing process where I *really* just started taking shit up off of the wall. It's *very compelling shit*, if you ask me. *Revolutionary*, maybe. *Delicious*, even. I don't know, probably neither. It's in a bowl over there if you want some.
 
 > 🎞️ `Gif of Reggie Watts`
 
@@ -301,7 +299,7 @@ If you know *anything* about gardening, you'll know that not all types of plants
 
 *Shut up, I know that, you fckn think I don't know that? I'M THE ONE WHO TOLD YOU THAT.*
 
-I'd argue that because every person is unique, the range of *things* we want to be *inspired to do* is nearly infinite. *Therefore,* your garden *can't* and *wiln't*
+I'd argue that because every person is unique, the range of *things* we want to be *inspired to do* is nearly infinite. *Therefore*, your garden *can't* and *wiln't*
 
 > 🎦 *`Close. Heavy, elongated blink. Short pause.`*
 
@@ -347,7 +345,7 @@ It’s all a matter of how you need to view or process your *things*. Can it can
 
 > 🅰️ `"The capacity to gain an accurate and deep intuitive understanding of a person or thing."`
 
-To me, this is the least clearly defined aspect of this whole formula so far. I think to be reductionist, we can say that insight is intuitive understanding of how to engage with *ideas,* including the *idea* of who you believe a person is.
+To me, this is the least clearly defined aspect of this whole formula so far. I think to be reductionist, we can say that insight is intuitive understanding of how to engage with *ideas*, including the *idea* of who you believe a person is.
 
 Regardless, context is needed. Either a lot of it, or a significant enough experience for something to to become intuitive enough to feel like insight. I'd make the argument, however, that context acquired through real, hard data is significantly more effective at producing results than context acquired through only inferring and not taking action.
 
@@ -369,7 +367,7 @@ Regardless, context is needed. Either a lot of it, or a significant enough exper
 
 In music production, the rules of how *things* and attributes are presented and managed are not so structured, so we have to get a little more creative to set up areas in our DAW that serve as dedicated contexts for accomplishing certain workflows where a context isn't already built into the software to do that thing. Like one for managing our low frequency content, for example, or controlling all of our FX from one spot.
 
-We want a relationship between our kick and our bass that improves the low-end frequencies of our song’s mix. The sounds of the kick and the bass are the *things* we're working with. We know that the kick and bass are related by several *attributes,* but one most importantly, that being that both the kick and the bass are *low frequency audio.* Our *condition* is that they should both positively contribute to the overall low frequencies of the song when playing at the same time. We’ll use this condition to guide the formation of the desired relationship between the kick and bass.
+We want a relationship between our kick and our bass that improves the low-end frequencies of our song’s mix. The sounds of the kick and the bass are the *things* we're working with. We know that the kick and bass are related by several *attributes*, but one most importantly, that being that both the kick and the bass are *low frequency audio.* Our *condition* is that they should both positively contribute to the overall low frequencies of the song when playing at the same time. We’ll use this condition to guide the formation of the desired relationship between the kick and bass.
 
 ---
 
