@@ -1,24 +1,21 @@
 ---
-Class: Script
-Type: Long Form
-Pinned: true
-Status: Draft
-Topic:
+class: Script
+type: Long Form
+pinned: true
+published: true
+status: Draft
+topic:
   - "[Music Production](Music%20Production.md)"
   - "[Productivity](Productivity.md)"
-Created: 2023-10-04
-Modified: 2023-11-06
-publish: true
+created: 2023-10-04
+modified: 2023-11-06
 tags:
   - review
   - needsjoke
   - scoobydoo
   - writing
   - fromhere
-  - Music Production
-  - Productivity
 ---
-
 
 
 🅰️ `Visual Aid` - 🎞️ `Video` - 🔊 `Sound Clip` - 🎦 `Shot Comp`
