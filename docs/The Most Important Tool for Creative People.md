@@ -15,7 +15,10 @@ tags:
   - scoobydoo
   - writing
   - fromhere
+  - Music Production
+  - Productivity
 ---
+
 
 
 🅰️ `Visual Aid` - 🎞️ `Video` - 🔊 `Sound Clip` - 🎦 `Shot Comp`
@@ -25,10 +28,6 @@ tags:
 ## Premise
 
 If we learn how to gather context more effectively, then we will inevitably become more creative both as artists and as people.
-
-## Title Ideas
-
-- The Most Important Tool for Creative People *(Secretly You Already Know This)*
 
 ## Main Points
 
