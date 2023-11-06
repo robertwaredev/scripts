@@ -146,7 +146,7 @@ In English, a condition and and attribute are defined very similarly, with one d
 
 > 🅰️ `"A quality or feature regarded as a characteristic or inherent part of someone or something."`
 
-In other words, an aspect of *what* something is. Assuming we want to change *what something is*, we could potentially *add or remove* attributes to it, which will fundamentally re-define *what* it is.
+In other words, an aspect of *what* something is. Assuming we want to change what something is, we could potentially *add or remove* attributes to it, which will fundamentally re-define *what* it is.
 
 For example, adding a planet into the background of a digital painting might fundamentally change *what genre* the painting is from fantasy to sci-fi, or adding another oscillator to your synth patch may fundamentally alter *what kind* of sound it is.
 
@@ -156,7 +156,7 @@ For example, adding a planet into the background of a digital painting might fun
 
 > 🅰️ `"The state of something with regard to its appearance, quality, or working order."`
 
-In other words, an aspect of *how* something is, and for our purposes, *how we want it to be*. Assuming we want to change *how something is*, we can *modify* its existing attributes to suit our needs.
+In other words, an aspect of *how* something is, and for our purposes, *how we want it to be*. Assuming we want to change how something is, we can *modify* its existing attributes to suit our needs.
 
 For example, changing the colors in your digital painting could change *how* the overall mood is perceived, or turning up the distortion on your song's lead vocal could change *how sharply* it cuts through the other sounds in the mix, which people tend to like.
 
