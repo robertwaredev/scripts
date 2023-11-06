@@ -110,11 +110,19 @@ but for the sake of this discussion, I’ve chosen the following definition:
 
 The first key word here is "something". We're talking about *nouns* here, folks. People, places, things, ideas, events.
 
-Like my exes, where they are right now,
+Like my exes,
+
+> 🎦 `Tight`
+
+where they are right now,
 
 > 🎦 *`(looks over shoulder nervously)`*
 
-the shit they left at my house, their *godawful* cooking, and, of course,
+the shit they left at my house,
+
+> 🅰️ *`pictures of bongs`*
+
+their *godawful* cooking, and, of course,
 
 > 🎦 `Tight`
 
