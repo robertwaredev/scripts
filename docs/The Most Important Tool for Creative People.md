@@ -15,7 +15,10 @@ tags:
   - scoobydoo
   - writing
   - fromhere
+  - Music Production
+  - Productivity
 ---
+
 
 
 🅰️ `Visual Aid` - 🎞️ `Video` - 🔊 `Sound Clip` - 🎦 `Shot Comp`
@@ -40,11 +43,7 @@ Stick with the garden metaphor, use the abstract elements to make ideas concrete
 - Leverage tools specialized in analyzing relevant attributes
 - Observe and modify attributes to meet your conditions
 - Identify where the success or failure in your context lies
-- Never stop iterating your context using what you learned
-
-## Promises & Implications
-
-- You'll learn to leverage context to build a garden of inspiration that combines experience, knowledge, and emotion into a "data structure" you can work with in a tangible way.
+- Continue iterating your context using what you learned
 
 # Intro #review
 
