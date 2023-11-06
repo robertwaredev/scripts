@@ -15,7 +15,6 @@ tags:
 ---
 
 
-
 🅰️ `Visual Aid` - 🎞️ `Video` - 🔊 `Sound Clip` - 🎦 `Shot Comp`
 
 # Notes
@@ -84,7 +83,7 @@ Feel free to check it out, but I warn you, it’s definitely a product of its ti
 
 # It's Definitely Not Nothing #review
 
-I can already see you sitting there like "That's an incredibly cool and heartwarming story bro, but how *exactly* do we build this garden? Like, what are the *actual mechanics* you're gonna bring to the table to make this *goofy ass* metaphor work?"
+I can already see you sitting there like "That's an incredibly cool and heartwarming story, Robert, but how *exactly* do we build this garden? Like, what are the *actual mechanics* you're gonna bring to the table to make this *goofy ass* metaphor work?"
 
 > 🅰️ `CONTEXT`
 > 🔊 *`Big orchestral impact sound`*
