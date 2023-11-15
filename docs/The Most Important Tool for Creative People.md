@@ -8,7 +8,7 @@ topic:
   - "[Music Production](Music%20Production.md)"
   - "[Productivity](Productivity.md)"
 created: 2023-10-04
-modified: 2023-11-06
+modified: 2023-11-12
 tags:
   - Music Production
   - Productivity
@@ -164,7 +164,7 @@ The differences between *what* and *how* can be subjective, are often a matter o
 
 ---
 
-## Let me just gut punch you *real quick.*
+## Emotional Damage
 
 The song that *you* enjoy the most has all sorts of varying aspects. The song could be *dynamic*, or *lush*, or *uplifting*, or *comforting*, or-
 
@@ -251,7 +251,7 @@ A relation is defined as:
 
 > 🅰️ `“An aspect or quality that connects two or more things or parts as being or belonging or working together or as being of the same kind”`
 
-So what this means is that by knowing the attributes of our *things*, we know *if* they're related, and *how* they're related. By utilizing conditions, we can determine whether or not that relationship is useful to us for whatever it is that we're trying to accomplish.
+So what this means, is that by knowing the attributes of our *things*, we know *if* and *how* they're related. By utilizing conditions, we can determine whether or not that relationship is useful to us for whatever it is that we're trying to accomplish.
 
 ---
 
