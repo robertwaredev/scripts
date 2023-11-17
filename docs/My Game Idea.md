@@ -1,11 +1,12 @@
 ---
 class: Note
+pinned: true
 published: true
 editing: true
 topic:
   - "[Video Games](Video%20Games.md)"
 created: 2023-11-10
-modified: 2023-11-16
+modified: 2023-11-17
 tags:
   - Video Games
 ---
@@ -34,9 +35,13 @@ tags:
 - 2B2T Minecraft Server
 	- The ambition of players fundamentally reshapes the world, even at the cost of accessibility.
 	- Player groups are formed socially based on trust, interests, and ambitions rather than through in-game "guild" mechanics.
+- Moonring
+	- Shifting fog of terror
 - S.T.A.L.K.E.R. Series
 	- The world itself is your primary enemy
 	- Exclusion zones & anomalies
+- Final Fantasy XIV
+	- Crystals
 
 # Design Pillars
 
@@ -44,8 +49,7 @@ tags:
 
 - The game should be extremely simple to understand, yet have a high mechanical skill ceiling.
 - Rewards should always be based on how much risk you take.
-- PvP cannot be turned off, go fuck yourself.
-- PvP is not a game mode or a server type, it's a foundational design pillar upon which absolutely everything else rests.
+- PvP cannot be turned off, go fuck yourself. PvP is *not* a game mode or a server type, it's a foundational design pillar upon which the world building and absolutely everything else rests.
 - Game mechanics should be systematic and encourage socially driven PvP instead of defined game types, rules, or "win" states.
 - World building and lore should be steeped and visually apparent, but a "main story quest" should not be required to understand the game or play it at a high level.
 
@@ -58,57 +62,78 @@ tags:
 
 # The World Tree
 
-> God is not a man.
+- The World Tree is the planet-bound equivalent of a cosmic deity, uncaring and unfeeling, only creating and destroying. It sprouted from a cosmic seed that drifted for eons before making landfall, long before living memory.
+- The World Tree is home to many denizens, which dwell on the surface of its vast branches, occasionally forming small settlements.
+- The sun is only visible at the top-most branches of the World Tree.
 
-- The World Tree is the land-bound equivalent to a cosmic deity, uncaring and unfeeling, only creating and destroying.
-- The World Tree sprouted from a cosmic seed that drifted for eons before making landfall, long before living memory.
-- The World Tree perpetually emanates Fog, an unrefined force of creation and destruction which drifts across the land, destroying and re-creating everything it touches, acting as a primordial, chaotic force of manifestation.
+# Fog
+
+- The World Tree perpetually dusts the world with Fog, a storm of creative and destructive energy which drifts across the land, scouring and re-shaping everything it touches, acting as a primordial, chaotic force of manifestation. (Procedural Regeneration)
+- Fog itself is the most important resource, and is gathered and condensed down to form Fogstones, which emit light that wards the effects of Fog, known as Foglight.
+- Fog is made up of many "exclusion zone" style storms that roam the land, and is only survived by the most knowledgeable and well-prepared.
+- Fog comes with the challenge of hallucinations, shifting environments, randomly mutated enemies, spontaneous player translocation, wormhole apparition, temporary quantum entanglement, evil twins from parallel universes, and much more.
 
 # Light & Dark
 
-> A shifting, unpredictable realm
+> Wicked things this way come.
 
-- Enemies, anomalies, and other disturbances can only emerge in the absence of light.
+- Enemies, anomalies, and other disturbances emerge in the absence of light.
 - Light sources exist in two forms: natural light, and Foglight.
-- The radiance of natural light determines how effectively darkness is warded off.
-- The radiance of Foglight determines how protected the lit area is against the changing effects of Fog.
-- All light sources exist as a variety of worn and equipable items as well as buildable structures.
+- Natural light wards off darkness, and is produced by fire or bioluminescence.
+- Foglight wards off darkness *and* protects against the effects of Fog, and is only produced by Fogstones.
+- Natural lights and Foglights exist as a variety of worn and equipable items as well as buildable structures.
 
 # Overworld
 
-- The overworld is absent of natural light, blocked out by the many branches of the World Tree.
+> A shifting, unpredictable realm.
+
+- The Overworld is completely absent of sunlight, blocked out by the many branches of the World Tree.
+- Enemies, anomalies, and other disturbances are constantly emerging from the darkness.
+- Fog storms also roam the Overworld, destroying and creating new areas as it moves, as well as causing a variety of unpredictable effects.
 
 # Underworld
 
 > Don't get lost.
 
-- The underworld is a massive, subterranean cave network made up of the spaces left behind by the rotting roots of the World Tree.
-- The overworld has a multitude of passages to the underworld which are created and destroyed in the Fog at random locations. These passages remain either until the Fog returns to scour them from the face of the map, or players protect them by building light structures that ward off the Fog.
-- Fog cannot penetrate very deep underground, thus the underworld remains a largely fixed gameplay space, save for passages leading to the overworld.
+- The Underworld is a massive, subterranean cave network made up of the spaces left behind by the rotting roots of the World Tree. No sunlight reaches the Underworld.
+- Enemies, anomalies, and other disturbances are constantly emerging from the darkness.
+- Fog does not penetrate very deep into the Underworld, thus the Underworld remains a largely fixed gameplay space, save for passages leading to the Overworld.
+- The Overworld has a multitude of passages to the Underworld which are created and destroyed in the Fog at random locations. These passages remain either until the Fog returns to scour them from the face of the map, or players protect them by building light structures that ward off the Fog.
 - Civilization has attempted to rebuild here, free from the effects of Fog, but far from the resources necessary to keep darkness at bay.
-
-# Fog Zones
-
-> Cosmic horrors beyond human comprehension.
-
-- Fog cannot be dissipated by light like darkness can, but rather its chaotic effects can be negated by Foglight that passes through it.
-- Everything left in darkness will be scoured by Fog, which constantly roams the land and *changes* everything, procedurally destroying and creating areas completely anew.
-- Everything which is lit by Foglight is left untouched by the effects of Fog, allowing players to create pockets of relative safety in which settlements, travel routes, resource farms, and more may be formed.
-- Fog is made up of many roaming "exclusion zones" style pockets of the world, and is only survived by the most knowledgeable and well-prepared.
-- Fog zones come with the challenge of hallucinations, shifting, environments, randomly mutated enemies, spontaneous player translocation, wormhole apparition, temporary quantum entanglement, and much more. A true force of chaos.
 
 # Fogstones & Foglight
 
-> Order in chaos.
+> Order in chaos, and chaos in order.
 
-- Fog itself is the most important resource, and is gathered and condensed down to form Fogstones, the only light source capable of negating the effects of Fog.
-- Fogstones produce Foglight, which has no resource cost beyond its initial creation.
-- Fogstones have proportionate radiance to their proximity to Fog.
-- Due to the abundance of Fog on the overworld, Fogstones are naturally more radiant there, resonating positively with their simpler state of matter, as if calling out for their home.
-- On the overworld, Fogstones can act both as a navigational aid towards the Fog when carried, a harbinger of encroaching Fog when built as structures like street lamps or lighthouses, and importantly, an unfortunate beacon in the night for other players looking to profit on your misery.
-- Due to lack of Fog in the underworld, Fogstones are naturally more anti-radiant the deeper you go, even stealing light from nearby natural light sources, thus snuffing them out.
-- In the underworld, Fogstones act as tools of combat, deception, and sabotage, providing utilities for creating chaos and darkness, rather than keeping it at bay.
-- As a Fog dweller, you'll have to roll without Fogstones if you want the high rewards for your high risk, using only expendable light sources to guide you, if any light at all.
+- Fogstones produce Foglight, the only thing capable of negating the effects of Fog.
+- Unlike natural light sources, Fogstones never fully expire, only dim to a minimum light level.
+- Fogstones recharge by absorbing natural light sources, dimming them or even snuffing them out, with the only exception being the sun.
+- Fogstones are naturally more radiant at a base level when in close proximity to Fog other Fogstones.
+
+## Fogstones vs Fog
+
+> Cosmic horrors beyond human comprehension.
+
+- Fog cannot be dissipated by natural light like darkness can.
+- The chaotic effects of Fog are only negated by Foglight.
+- Everything which is unlit by Foglight will be scoured by Fog, which constantly roams the land and *changes* everything, procedurally destroying and creating areas completely anew.
+- Everything which is lit by Foglight is left untouched by the effects of Fog, allowing players to create pockets of relative safety in which settlements, travel routes, resource farms, and more may be formed.
+- As a Fog dweller, you'll have to roll without using Fogstones if you want the high rewards for your high risk, using only expendable light sources to guide you, if any light at all.
+
+## Fogstones vs Overworld
+
+- Due to the abundance of Fog on surface of the Overworld, Fogstones are naturally more radiant there, resonating positively with their unrefined state of matter, as if calling out for their home.
+- On the Overworld, Fogstones can act as a navigational aid in finding or avoiding Fog when carried, a harbinger of encroaching Fog when built as structures such as street lamps or lighthouses, and importantly, an unfortunate beacon in the night for other players looking to profit on your misery.
+
+## Fogstones vs Underworld
+
+- In the Underworld, Fogstones have an increased radiance the deeper you go, and a reduced ability to absorb natural light to recharge.
+- The Underworld
+
+## Fogstones vs World Tree
+
+- In the World Tree, Fogstones have a reduced radiance the higher you go, and an increased ability to absorb natural light to recharge.
+- The World Tree is dark, difficult, and dangerous to traverse, but provides substantial payoff when you make it to the top branches and recharge your Fogstones.
 
 # Dungeons
 
