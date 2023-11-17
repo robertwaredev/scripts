@@ -44,7 +44,8 @@ tags:
 
 - The game should be extremely simple to understand, yet have a high mechanical skill ceiling.
 - Rewards should always be based on how much risk you take.
-- Open PvP cannot be turned off, go fuck yourself.
+- PvP cannot be turned off, go fuck yourself.
+- PvP is not a game mode or a server type, it's a foundational design pillar upon which absolutely everything else rests.
 - Game mechanics should be systematic and encourage socially driven PvP instead of defined game types, rules, or "win" states.
 - World building and lore should be steeped and visually apparent, but a "main story quest" should not be required to understand the game or play it at a high level.
 
@@ -86,27 +87,28 @@ tags:
 - Fog cannot penetrate very deep underground, thus the underworld remains a largely fixed gameplay space, save for passages leading to the overworld.
 - Civilization has attempted to rebuild here, free from the effects of Fog, but far from the resources necessary to keep darkness at bay.
 
-# Fogstones
-
-> Order in chaos.
-
-- Fog cannot be dissipated like darkness can by light, but rather its chaotic effects can be negated by the Foglight which emanates from Fogstones.
-- Fog itself is the most important resource, and is gathered and condensed down to form Fogstones, the only light source capable of negating the effects of Fog. Fogstones produce Foglight, which has no resource cost beyond its initial creation.
-- Fogstones have proportionate radiance to their proximity to Fog.
-- Fogstones are naturally more radiant on the overworld due to the abundance of Fog, resonating positively with their simpler state of matter, as if calling out for their home.
-- Fogstones are naturally more anti-radiant the deeper into the underworld you go due to lack of Fog, even stealing light from nearby natural light sources, thus snuffing them out.
-- On the overworld, Fogstones can act both as a navigational aid towards the Fog when carried, a harbinger of encroaching Fog when built as structures like street lamps or lighthouses, and importantly, an unfortunate beacon in the night for other players looking to profit on your misery.
-- In the underworld, Fogstones act more as tools of combat, deception, and sabotage, providing utility in creating chaos and darkness, rather than keeping it at bay.
-- To truly take advantage of being a Fog dweller, you'll have to roll without Fogstones, using only expendable light sources to guide you, if any light at all.
-
 # Fog Zones
 
 > Cosmic horrors beyond human comprehension.
 
+- Fog cannot be dissipated by light like darkness can, but rather its chaotic effects can be negated by Foglight that passes through it.
 - Everything left in darkness will be scoured by Fog, which constantly roams the land and *changes* everything, procedurally destroying and creating areas completely anew.
 - Everything which is lit by Foglight is left untouched by the effects of Fog, allowing players to create pockets of relative safety in which settlements, travel routes, resource farms, and more may be formed.
-- Fog acts as pockets of roaming "exclusion zones" and is only survived by the most knowledgeable and well-prepared.
-- Fog zones come with the challenge of hallucinations, shifting, environments, randomly mutated enemies, spontaneous player translocation, wormhole apparition, temporary quantum entanglement, and more. A true force of chaos.
+- Fog is made up of many roaming "exclusion zones" style pockets of the world, and is only survived by the most knowledgeable and well-prepared.
+- Fog zones come with the challenge of hallucinations, shifting, environments, randomly mutated enemies, spontaneous player translocation, wormhole apparition, temporary quantum entanglement, and much more. A true force of chaos.
+
+# Fogstones & Foglight
+
+> Order in chaos.
+
+- Fog itself is the most important resource, and is gathered and condensed down to form Fogstones, the only light source capable of negating the effects of Fog.
+- Fogstones produce Foglight, which has no resource cost beyond its initial creation.
+- Fogstones have proportionate radiance to their proximity to Fog.
+- Due to the abundance of Fog on the overworld, Fogstones are naturally more radiant there, resonating positively with their simpler state of matter, as if calling out for their home.
+- On the overworld, Fogstones can act both as a navigational aid towards the Fog when carried, a harbinger of encroaching Fog when built as structures like street lamps or lighthouses, and importantly, an unfortunate beacon in the night for other players looking to profit on your misery.
+- Due to lack of Fog in the underworld, Fogstones are naturally more anti-radiant the deeper you go, even stealing light from nearby natural light sources, thus snuffing them out.
+- In the underworld, Fogstones act as tools of combat, deception, and sabotage, providing utilities for creating chaos and darkness, rather than keeping it at bay.
+- As a Fog dweller, you'll have to roll without Fogstones if you want the high rewards for your high risk, using only expendable light sources to guide you, if any light at all.
 
 # Dungeons
 
@@ -118,14 +120,19 @@ tags:
 
 # Resource Acquisition
 
+> Resources exist in the following forms:
+
+- Mineable
+- Harvestable
+- Gatherable
+- Craftable
+
 # Player Interactions
 
 - This is a PvPvW game. The primary world design from the ground up is to encourage players to kill each other, and create long-term group based social dynamics that propagate freeform social PvP.
 - PvP is not designed with rules or game-defined objectives in mind. PvP should sprout from the ambitions of players and the natural risk vs. reward gameplay that the world creates through its inherently difficult and transient nature.
 - Open world PvP creates natural distrust between players, while also creating an incentive to form unlikely parties based on the specialized abilities someone else can bring to the table.
 - Fogstones and other light structures can be destroyed by other players at any time, and are the primary means of establishing routes for travel and trade, creating settlements and safe houses between major locations, and locking randomly generated dungeons or resource nodes into the current world space to use for skilling or economy. This becomes the primary vehicle for PvP.
-- The world itself should feel obscured by the limitations which specs offer solutions for, making every spec a fundamentally grounded and necessary part of the world.
-- Combat, economy, and exploration should be a real limitation of specialization.
 - The world is difficult and widely unfriendly. Highly specialized allies ease the journey, but do not stop the clever solo player from hacking their own path through the wilderness.
 
 # Character Building
