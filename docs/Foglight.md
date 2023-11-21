@@ -13,8 +13,6 @@ tags:
 
 
 
-![Navbar](../Navbar.md)
-
 # Inspirations
 
 - Doom: Eternal / Postal: Brain Damaged
