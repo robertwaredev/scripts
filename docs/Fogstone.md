@@ -35,6 +35,8 @@ tags:
 	- Skill > Gear
 	- Has no true gear progression, instead has gear choices
 	- Perfect worldbuilding & lore
+- Elden Ring
+	- Tree
 - 2B2T Minecraft Server
 	- Systems are meant to be abused.
 	- The ambition of players fundamentally reshapes the game space
