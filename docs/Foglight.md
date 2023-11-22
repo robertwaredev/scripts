@@ -6,7 +6,7 @@ editing: true
 topic:
   - "[Video Games](Video%20Games.md)"
 created: 2023-11-10
-modified: 2023-11-21
+modified: 2023-11-22
 tags:
   - Video Games
 ---
@@ -96,14 +96,18 @@ tags:
 - Enemies, anomalies, and other disturbances are constantly emerging from the darkness.
 - Fog storms also roam the Overworld, destroying and creating new areas as they move, as well as causing a variety of unpredictable effects.
 
-## The Underworld
+## Fog Gates
+
+- Fog Gates are passages between the Overworld and The Old World, destroyed and created in new locations with the passing of the Fog. They are the only means of accessing The Old World.
+
+## The Old World
 
 > Don't get lost.
 
-- The Underworld is a massive, subterranean cave network made up of the spaces left behind by the old world and the rotting roots of the World Tree. No sunlight reaches the Underworld.
+- The Old World is a massive, subterranean cave network made up of the spaces left behind by ruined cities and the rotting roots of the World Tree. No sunlight reaches the Old World.
 - Enemies, anomalies, and other disturbances are constantly emerging from the darkness.
-- The Overworld has a multitude of passages to the Underworld which are created and destroyed in the Fog at random locations. These passages remain either until the Fog returns to scour them from the face of the map, or players protect them by building Foglight structures that ward off the Fog.
-- Fog does not penetrate very deep into the Underworld, thus the Underworld remains a largely unchanged gameplay space, save for the shifting passages leading to the Overworld.
+- The Overworld has a multitude of passages to the Old World which are created and destroyed in the Fog at random locations. These passages remain either until the Fog returns to scour them from the face of the map, or players protect them by building Foglight structures that ward off the Fog.
+- Fog does not penetrate very deep into the Old World, thus the Old World remains a largely unchanged gameplay space, save for the shifting passages leading to the Overworld.
 
 ## Fogstones & Foglight
 
@@ -130,10 +134,10 @@ tags:
 - Due to the abundance of Fog on surface of the Overworld, Fogstones are naturally more radiant there, resonating positively with their unrefined state of matter, as if calling out for their home.
 - On the Overworld, Fogstones can act as a navigational aid in finding or avoiding Fog when carried, a harbinger of encroaching Fog when built as structures such as street lamps or lighthouses, and importantly, an unfortunate beacon in the night for other players looking to profit on your misery.
 
-### Fogstones vs Underworld
+### Fogstones vs Old World
 
-- In the Underworld, Fogstones have an increased radiance the deeper you go, and a reduced ability to absorb natural light to recharge.
-- Civilization has attempted to rebuild here, free from the effects of Fog, but far from the sunlight necessary to keep darkness more than a stone's throw away. Underworld settlements rely heavily on using significant amounts of natural light, like bonfires, or by converting it into perpetual Foglight through Fogstone absorption.
+- In the Old World, Fogstones have an increased radiance the deeper you go, and a reduced ability to absorb natural light to recharge.
+- Civilization has attempted to rebuild here, free from the effects of Fog, but far from the sunlight necessary to keep darkness more than a stone's throw away. Old World settlements rely heavily on using significant amounts of natural light, like bonfires, or by converting it into perpetual Foglight through Fogstone absorption.
 
 ### Fogstones vs World Tree
 
