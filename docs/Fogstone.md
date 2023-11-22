@@ -29,7 +29,7 @@ tags:
 	- Social, political PvP with player defined "success" and "loss"
 - Caves of Qud
 	- Systems-based mechanics drive gameplay and discovery
-	- Procedural world with fixed locations and biomes
+	- Procedurally assisted world with fixed landmarks, locations, and biomes
 	- Unusual approach to RPG archetypes
 - Dark Souls
 	- Skill > Gear
