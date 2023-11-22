@@ -13,27 +13,32 @@ tags:
 
 
 
+![Foglight.png](../attachments/Foglight.png)
+
 # Inspirations
 
 - Doom: Eternal / Postal: Brain Damaged
-	- Immaculate Boomer Shooter Combat
+	- Immaculate boomer shooter combat
 	- High focus on twitch mobility
 	- High skill ceiling
 - Runescape
-	- Simple Gearing
-	- Classless Progression
-	- Large Number of Skills
+	- Simple gearing
+	- Classless progression
+	- Large number of skills to progress
+- EVE Online
+	- Social, political PvP with player defined "success" and "loss"
 - Caves of Qud
-	- Open Ended Goals
 	- Systems-based mechanics drive gameplay and discovery
 	- Procedural world with fixed locations and biomes
+	- Unusual approach to RPG archetypes
 - Dark Souls
 	- Skill > Gear
-	- Lore, Narrative Aesthetic
-	- High skill ceiling
+	- Has no true gear progression, instead has gear choices
+	- Perfect worldbuilding & lore
 - 2B2T Minecraft Server
-	- The ambition of players fundamentally reshapes the world, even at the cost of accessibility.
-	- Player groups are formed socially based on trust, interests, and ambitions rather than through in-game "guild" mechanics.
+	- Systems are meant to be abused.
+	- The ambition of players fundamentally reshapes the game space
+	- Player groups exist only as spoken agreements, rather than through an in-game party or guild mechanic.
 - Moonring
 	- Shifting fog of terror
 - S.T.A.L.K.E.R. Series
@@ -49,58 +54,58 @@ tags:
 - The game should be extremely simple to understand, yet have a high mechanical skill ceiling.
 - Rewards should always be based on how much risk you take.
 - PvP cannot be turned off, go fuck yourself. PvP is *not* a game mode or a server type, it's a foundational design pillar upon which the world building and absolutely everything else rests.
-- Game mechanics should be systematic and encourage socially driven PvP instead of defined game types, rules, or "win" states.
+- Game mechanics should be systematic and encourage socially driven PvP instead of game-defined rules or "win" states.
 - World building and lore should be steeped and visually apparent, but a "main story quest" should not be required to understand the game or play it at a high level.
+- The *entire world space* is the main meta-game, with the three main regions each forcing you to use the fundamental mechanics in drastically different ways to deal with the challenges that come with each. Due to these regions being vertically stacked on top of each other, rather than next to each other as on a typical game map, all three areas have mechanics that affect the others directly.
 
-# Premise
+# World Building
 
 > It's us versus the world.
 
-- Light is the primary survival resource and currency in the game.
-- The world itself is the primary antagonist of the game, and the social interactions that result from the world's difficult design is its primary story.
-
-# The World Tree
+## The World Tree
 
 - The World Tree is the planet-bound equivalent of a cosmic deity, uncaring and unfeeling, only creating and destroying. It sprouted from a cosmic seed that drifted for eons before making landfall, long before living memory.
 - The World Tree is home to many denizens, which dwell on the surface of its vast branches, occasionally forming small settlements.
-- The sun is only visible at the top-most branches of the World Tree.
+- The World Tree spans the entire game map. As a result, the sun is only visible at its top-most branches.
 
-# Fog
+## Fog
 
-- The World Tree perpetually dusts the world with Fog, a storm of creative and destructive energy which drifts across the land, scouring and re-shaping everything it touches, acting as a primordial, chaotic force of manifestation. (Procedural Regeneration)
+> Never assume sanity.
+
+- Fog falls perpetually from the leaves of the World Tree, a storm of creative and destructive energy which drifts across the land, scouring and re-shaping everything it touches, acting as a primordial, chaotic force of manifestation. (Procedural Regeneration)
 - Fog itself is the most important resource, and is gathered and condensed down to form Fogstones, which emit light that wards the effects of Fog, known as Foglight.
-- Fog is made up of many "exclusion zone" style storms that roam the land, and is only survived by the most knowledgeable and well-prepared.
 - Fog comes with the challenge of hallucinations, shifting environments, randomly mutated enemies, spontaneous player translocation, wormhole apparition, temporary quantum entanglement, evil twins from parallel universes, and much more.
+- Fog is made up of many "exclusion zone" style storms that roam the land, and is only survived by the most knowledgeable and well-prepared.
 
-# Light & Dark
+## Light & Dark
 
 > Wicked things this way come.
 
-- Enemies, anomalies, and other disturbances emerge in the absence of light.
 - Light sources exist in two forms: natural light, and Foglight.
-- Natural light wards off darkness, and is produced by fire or bioluminescence.
-- Foglight wards off darkness *and* protects against the effects of Fog, and is only produced by Fogstones.
-- Natural lights and Foglights exist as a variety of worn and equipable items as well as buildable structures.
+- Enemies, anomalies, and other disturbances emerge in the absence of natural light.
+- Sunlight wards off darkness, but burns the bare skin of players, and can't be survived for long periods of time without sufficient resistant gear.
+- Gentler natural light sources also ward off darkness, and are produced by fire or bioluminescence.
+- Foglight wards off darkness *and* neutralizes the effects of Fog in a localized area.
+- Both types of light sources exist as a variety of carried items, worn items, and buildable structures.
 
-# Overworld
+## The Overworld
 
 > A shifting, unpredictable realm.
 
 - The Overworld is completely absent of sunlight, blocked out by the many branches of the World Tree.
 - Enemies, anomalies, and other disturbances are constantly emerging from the darkness.
-- Fog storms also roam the Overworld, destroying and creating new areas as it moves, as well as causing a variety of unpredictable effects.
+- Fog storms also roam the Overworld, destroying and creating new areas as they move, as well as causing a variety of unpredictable effects.
 
-# Underworld
+## The Underworld
 
 > Don't get lost.
 
-- The Underworld is a massive, subterranean cave network made up of the spaces left behind by the rotting roots of the World Tree. No sunlight reaches the Underworld.
+- The Underworld is a massive, subterranean cave network made up of the spaces left behind by the old world and the rotting roots of the World Tree. No sunlight reaches the Underworld.
 - Enemies, anomalies, and other disturbances are constantly emerging from the darkness.
-- The Overworld has a multitude of passages to the Underworld which are created and destroyed in the Fog at random locations. These passages remain either until the Fog returns to scour them from the face of the map, or players protect them by building light structures that ward off the Fog.
+- The Overworld has a multitude of passages to the Underworld which are created and destroyed in the Fog at random locations. These passages remain either until the Fog returns to scour them from the face of the map, or players protect them by building Foglight structures that ward off the Fog.
 - Fog does not penetrate very deep into the Underworld, thus the Underworld remains a largely unchanged gameplay space, save for the shifting passages leading to the Overworld.
-- Civilization has attempted to rebuild here, free from the effects of Fog, but far from the resources necessary to keep darkness at bay.
 
-# Fogstones & Foglight
+## Fogstones & Foglight
 
 > Order in chaos, and chaos in order.
 
@@ -108,8 +113,9 @@ tags:
 - Unlike natural light sources, Fogstones never fully expire, only dim to a minimum light level.
 - Fogstones recharge by absorbing natural light sources, dimming them or even snuffing them out, with the only exception being the sun.
 - Fogstones are naturally more radiant at a base level when in close proximity to Fog other Fogstones.
+- The natural properties of Fogstones change with elevation, more on that below.
 
-## Fogstones vs Fog
+### Fogstones vs Fog
 
 > Cosmic horrors beyond human comprehension.
 
@@ -119,28 +125,38 @@ tags:
 - Everything which is lit by Foglight is left untouched by the effects of Fog, allowing players to create pockets of relative safety in which settlements, travel routes, resource farms, and more may be formed.
 - As a Fog dweller, you'll have to roll without using Fogstones if you want the high rewards for your high risk, using only expendable light sources to guide you, if any light at all.
 
-## Fogstones vs Overworld
+### Fogstones vs Overworld
 
 - Due to the abundance of Fog on surface of the Overworld, Fogstones are naturally more radiant there, resonating positively with their unrefined state of matter, as if calling out for their home.
 - On the Overworld, Fogstones can act as a navigational aid in finding or avoiding Fog when carried, a harbinger of encroaching Fog when built as structures such as street lamps or lighthouses, and importantly, an unfortunate beacon in the night for other players looking to profit on your misery.
 
-## Fogstones vs Underworld
+### Fogstones vs Underworld
 
 - In the Underworld, Fogstones have an increased radiance the deeper you go, and a reduced ability to absorb natural light to recharge.
-- The Underworld
+- Civilization has attempted to rebuild here, free from the effects of Fog, but far from the sunlight necessary to keep darkness more than a stone's throw away. Underworld settlements rely heavily on using significant amounts of natural light, like bonfires, or by converting it into perpetual Foglight through Fogstone absorption.
 
-## Fogstones vs World Tree
+### Fogstones vs World Tree
 
 - In the World Tree, Fogstones have a reduced radiance the higher you go, and an increased ability to absorb natural light to recharge.
 - The World Tree is dark, difficult, and dangerous to traverse, but provides substantial payoff when you make it to the top branches and recharge your Fogstones.
+
+# Player Interactions
+
+> Keep your friends close.
+
+- This is a PvPvW game. The primary world design from the ground up is to encourage players to kill each other. The goal is to create long-term social and political PvP, using the world as a strategic medium.
+- PvP does not exist as game-defined rules or objectives. PvP sprouts from the ambitions of players and the natural risk vs. reward gameplay that the world creates through its inherently difficult and transient nature.
+- Open world PvP creates natural distrust between players, while also creating an incentive to form unlikely parties based on the specialized abilities someone else can bring to the table.
+- Fogstones and other light structures can be destroyed by other players at any time, and are the primary means of establishing routes for travel and trade, creating settlements and safe houses between major locations, and preventing Fog from destroying dungeons and resource nodes so they can be used long term for skilling, economy, or war logistics. This becomes the primary vehicle for PvP.
+- The world is difficult and widely unfriendly. Highly specialized allies ease the journey, but do not stop the clever solo player from hacking their own path through the wilderness.
 
 # Dungeons
 
 > Hold your ground.
 
-- The goal of dungeons is not to provide some "endgame" in and of themselves, but rather serve as a type of resource node with the potential for long-term upgradability in mind.
-- Dungeons are not "cleared" but rather continuously spawn enemies that must be held at bay, making dungeons more akin to a resource farm.
-- Due to their persistent nature, dungeons double in function as strategic locations to contest.
+- Dungeons are randomly created and destroyed within Fog storms.
+- Dungeons offer a sort of settlement opportunity, with players contributing time and resources to build up the difficulty and scale of the dungeon, as well as building greater defenses and weaponry to protect from other groups of players looking to control the area.
+- Dungeons are not "cleared" but rather continuously spawn enemies that must be held at bay, and grow in scope the more they are progressed, making dungeons more akin to a growing resource farm.
 
 # Resource Acquisition
 
@@ -150,14 +166,6 @@ tags:
 - Harvestable
 - Gatherable
 - Craftable
-
-# Player Interactions
-
-- This is a PvPvW game. The primary world design from the ground up is to encourage players to kill each other, and create long-term group based social dynamics that propagate freeform social PvP.
-- PvP is not designed with rules or game-defined objectives in mind. PvP should sprout from the ambitions of players and the natural risk vs. reward gameplay that the world creates through its inherently difficult and transient nature.
-- Open world PvP creates natural distrust between players, while also creating an incentive to form unlikely parties based on the specialized abilities someone else can bring to the table.
-- Fogstones and other light structures can be destroyed by other players at any time, and are the primary means of establishing routes for travel and trade, creating settlements and safe houses between major locations, and locking randomly generated dungeons or resource nodes into the current world space to use for skilling or economy. This becomes the primary vehicle for PvP.
-- The world is difficult and widely unfriendly. Highly specialized allies ease the journey, but do not stop the clever solo player from hacking their own path through the wilderness.
 
 # Character Building
 
