@@ -38,9 +38,9 @@ tags:
 - Elden Ring
 	- Tree
 - 2B2T Minecraft Server
-	- Systems are meant to be abused.
+	- Systems are meant to be abused
 	- The ambition of players fundamentally reshapes the game space
-	- Player groups exist only as spoken agreements, rather than through an in-game party or guild mechanic.
+	- Player groups exist only as spoken agreements, rather than through an in-game party or guild mechanic
 - Moonring
 	- Shifting fog of terror
 - Metro Series
