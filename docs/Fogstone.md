@@ -23,24 +23,23 @@ tags:
 	- High skill ceiling
 	- Unique weapons
 - Runescape
-	- Simple gearing
 	- Classless progression
+	- Gearing is easy to understand
 	- Large number of skills to progress
 - EVE Online
-	- Social, political PvP with player defined "success" and "loss"
+	- Socially driven, political PvP with player defined "success" and "loss"
 - Caves of Qud
-	- Systems-based mechanics drive gameplay and discovery
-	- Procedurally assisted world with fixed landmarks, locations, and biomes
 	- Unusual approach to RPG archetypes
+	- Systems-based gameplay design drives discovery
+	- Procedurally assisted world with fixed landmarks, locations, and biomes
 - Dark Souls
-	- Has no true gear progression, instead has gear choices
 	- Overarching worldbuilding & lore
+	- Has no true gear progression, instead has gear choices
 - Elden Ring
 	- Tree (Yggdrasil)
 - 2B2T Minecraft Server
-	- Systems are meant to be abused
 	- The ambition of players fundamentally reshapes the game space
-	- Player groups exist only as spoken agreements, rather than through an in-game party or guild mechanic
+	- Player groups only exist as spoken agreements, rather than through in-game party or guild mechanics
 - Moonring
 	- Shifting fog of terror
 - Metro Series
@@ -49,18 +48,16 @@ tags:
 	- The world itself is your primary enemy
 	- Exclusion zones & anomalies
 - Final Fantasy
-	- Fucking crystals, dude.
+	- Fucking crystals, dude. Or rocks, in this case. Same shit.
 
 # Design Pillars
 
-> For the record.
-
 - The game should be extremely simple to understand, yet have a high mechanical skill ceiling.
 - Rewards should always be based on how much risk you take.
-- PvP cannot be turned off, go fuck yourself. PvP is *not* a game mode or a server type, it's a foundational design pillar upon which the world building and absolutely everything else rests.
-- Game mechanics should be systematic and encourage socially driven PvP instead of game-defined rules or "win" states.
-- World building and lore should be steeped and visually apparent, but a "main story quest" should not be required to understand the game or play it at a high level.
-- The *entire world space* is the main meta-game, with the three main regions each forcing you to use the fundamental mechanics in drastically different ways to deal with the challenges that come with each. Due to these regions being vertically stacked on top of each other, rather than next to each other as on a typical game map, all three areas have mechanics that affect the others directly.
+- PvP is *not* a game mode or a server type, it's a foundational design pillar upon which the world building and absolutely everything else rests. As such, there is no PvP opt-out, and never will be.
+- Game mechanics should be systematic and encourage socially driven PvP instead of forcing PvP through game-defined participation requirements, rules, or "win" states.
+- World building and lore should be steeped and visually apparent, but a "main story quest" does not exist.
+- You should be encouraged to understand the overarching meta-game which spans the entirety of the play area, how each of the three regions combined with the many skill paths offer vastly different gameplay experiences, and how these combinations of mechanics reveal the lore of the world through natural deduction.
 
 # World Building
 
