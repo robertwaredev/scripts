@@ -19,8 +19,9 @@ tags:
 
 - Doom: Eternal / Postal: Brain Damaged
 	- Immaculate boomer shooter combat
-	- High focus on twitch mobility
+	- High focus on mobility
 	- High skill ceiling
+	- Unique weapons
 - Runescape
 	- Simple gearing
 	- Classless progression
@@ -32,11 +33,10 @@ tags:
 	- Procedurally assisted world with fixed landmarks, locations, and biomes
 	- Unusual approach to RPG archetypes
 - Dark Souls
-	- Skill > Gear
 	- Has no true gear progression, instead has gear choices
-	- Perfect worldbuilding & lore
+	- Overarching worldbuilding & lore
 - Elden Ring
-	- Tree
+	- Tree (Yggdrasil)
 - 2B2T Minecraft Server
 	- Systems are meant to be abused
 	- The ambition of players fundamentally reshapes the game space
