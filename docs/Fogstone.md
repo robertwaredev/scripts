@@ -57,13 +57,13 @@ tags:
 - PvP is *not* a game mode or a server type, it's a foundational design pillar upon which the world building and absolutely everything else rests. As such, there is no PvP opt-out, and never will be.
 - Game mechanics should be systematic and encourage socially driven PvP instead of forcing PvP through game-defined participation requirements, rules, or "win" states.
 - World building and lore should be steeped and visually apparent, but a "main story quest" does not exist.
-- You should be encouraged to understand the overarching meta-game which spans the entirety of the play area, how each of the three regions combined with the many skill paths offer vastly different gameplay experiences, and how these combinations of mechanics reveal the lore of the world through natural deduction.
+- You should be encouraged to understand the overarching meta-game which interconnects each region and spans the entirety of the play area, how each of these regions combined with the many skill paths offer fundamentally different gameplay experiences, and how these combinations of mechanics reveal the lore of the world through natural deduction.
 
 # World Building
 
-> It's us versus the world.
-
 ## The World Tree
+
+> It's us versus the world.
 
 - The World Tree is the planet-bound equivalent of a cosmic deity, uncaring and unfeeling, only creating and destroying. It sprouted from a cosmic seed that drifted for eons before making landfall, long before living memory.
 - The World Tree is home to many denizens, which dwell on the surface of its vast branches, occasionally forming small settlements.
@@ -99,6 +99,8 @@ tags:
 
 ## Fog Gates
 
+> The road less taken, only because you must find it first.
+
 - Fog Gates are passages between the Overworld and The Old World, destroyed and created in new locations with the passing of the Fog. They are the only means of accessing The Old World.
 
 ## The Old World
@@ -116,7 +118,7 @@ tags:
 
 - Fogstones produce Foglight, the only thing capable of negating the effects of Fog.
 - Unlike natural light sources, Fogstones never fully expire, only dim to a minimum light level.
-- Fogstones recharge by absorbing natural light sources, dimming them or even snuffing them out, with the only exception being the sun.
+- Fogstones recharge by absorbing natural light sources, dimming them or even snuffing them out in the process, with the only exception being the sun.
 - Fogstones are naturally more radiant at a base level when in close proximity to Fog other Fogstones.
 - The natural properties of Fogstones change with elevation, more on that below.
 
