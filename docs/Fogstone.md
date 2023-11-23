@@ -13,9 +13,11 @@ tags:
 
 
 
-![Foglight.png](../attachments/Foglight.png)
+![Foglight 1.png](../attachments/Foglight%201.png)
 
 # Inspirations
+
+## Games
 
 - Doom: Eternal / Postal: Brain Damaged
 	- Immaculate boomer shooter combat
@@ -28,6 +30,7 @@ tags:
 	- Large number of skills to progress
 - EVE Online
 	- Socially driven, political PvP with player defined "success" and "loss"
+	- Player groups exist as spoken agreement
 - Caves of Qud
 	- Unusual approach to RPG archetypes
 	- Systems-based gameplay design drives discovery
@@ -37,9 +40,6 @@ tags:
 	- Has no true gear progression, instead has gear choices
 - Elden Ring
 	- Tree (Yggdrasil)
-- 2B2T Minecraft Server
-	- The ambition of players fundamentally reshapes the game space
-	- Player groups only exist as spoken agreements, rather than through in-game party or guild mechanics
 - Moonring
 	- Shifting fog of terror
 - Metro Series
@@ -50,14 +50,39 @@ tags:
 - Final Fantasy
 	- Fucking crystals, dude. Or rocks, in this case. Same shit.
 
+## Books
+
+- The Dark Tower Series, Stephen King
+- Seventh Tower Series, Garth Nix
+	- Sunstones as a source of power
+
+# Monetization
+
+- Buy to play only.
+- Free updates, never pay for content.
+- No micro-economy, ever. I hate it, and so do you.
+- Localized pricing, I care more about your access to the game than how much money it makes me.
+
 # Design Pillars
 
-- The game should be extremely simple to understand, yet have a high mechanical skill ceiling.
-- Rewards should always be based on how much risk you take.
-- PvP is *not* a game mode or a server type, it's a foundational design pillar upon which the world building and absolutely everything else rests. As such, there is no PvP opt-out, and never will be.
-- Game mechanics should be systematic and encourage socially driven PvP instead of forcing PvP through game-defined participation requirements, rules, or "win" states.
-- World building and lore should be steeped and visually apparent, but a "main story quest" does not exist.
-- You should be encouraged to understand the overarching meta-game which interconnects each region and spans the entirety of the play area, how each of these regions combined with the many skill paths offer fundamentally different gameplay experiences, and how these combinations of mechanics reveal the lore of the world through natural deduction.
+1. The game mechanics must be easy to understand.
+2. The game must have a high mechanical skill ceiling.
+3. World building should be visually and mechanically apparent.
+4. The game should always respect the players' intelligence, period.
+	- Everything is earnable through playing the game.
+	- Goals and achievements are player-defined and based on ambition.
+	- There is no player level or stat sheet. Ability is determined by specializing in skill trees which offer differing mechanical utilities. There is no power scaling, only learning mechanics, and being better at them than the next player.
+	- There are no item levels, stat sheets, rarities, or RNG. All items are purpose built for a particular skill tree or hybrid of skill trees, and focus on providing unique mechanical utilities rather than redistributing stats like in most MMOs.
+	- A piece of gear's utility scales with the progression of the respective skill trees, but doesn't require progression at all to be usable at a base level.
+	- The game will never reward you with items out of thin air, only access to new combat or utility mechanics though skill progression.
+	- The game will never stop you from making a bad decision, but we'll at least give you a heads up.
+5. The threshold of "getting to the fun part" should be logging in to the game.
+	- There will never be progression mechanics that rely on levels and gaining experience points, there will only be material or crafting costs.
+	- There will never be time wasting mechanics. They suck, and usually serve to delay the realization that the game isn't all that fun to begin with.
+6. PvP is *full loot* and *non-consensual*.
+	- There is no PvP opt-out, and never will be.
+	- PvP is socially driven instead of forced by game-defined participation requirements, rules, rewards, or win states.
+7. The world itself is the meta-game, and each region interconnects vertically and spans the entirety of the play area. Each of these regions fundamentally change the primary game mechanics which drive exploration and player interaction, and reveal the lore of the world through natural deduction.
 
 # World Building
 
@@ -118,13 +143,14 @@ tags:
 
 - Fogstones produce Foglight, the only thing capable of negating the effects of Fog.
 - Unlike natural light sources, Fogstones never fully expire, only dim to a minimum light level.
-- Fogstones recharge by absorbing natural light sources, dimming them or even snuffing them out in the process, with the only exception being the sun.
-- Fogstones are naturally more radiant at a base level when in close proximity to Fog other Fogstones.
-- The natural properties of Fogstones change with elevation, more on that below.
+- Fogstones are crafted through gathering and distilling Fog with specialized equipment. They can vary in size depending on the distillation period, similar to stalagmite formation.
+- Fogstones require exposure to sunlight to be "born" after they have been crafted, otherwise they remain inert.
+- Fogstones recharge by absorbing nearby natural light sources, dimming them or even snuffing them out in the process.
+- Fogstones change color when in close proximity to Fog other Fogstones.
+- Fogstones are naturally more radiant when farther from the sun.
+- Fogstones are naturally more absorbent when closer the the sun.
 
 ### Fogstones vs Fog
-
-> Cosmic horrors beyond human comprehension.
 
 - Fog cannot be dissipated by natural light like darkness can.
 - The chaotic effects of Fog are only negated by Foglight.
@@ -147,12 +173,12 @@ tags:
 - In the World Tree, Fogstones have a reduced radiance the higher you go, and an increased ability to absorb natural light to recharge.
 - The World Tree is dark, difficult, and dangerous to traverse, but provides substantial payoff when you make it to the top branches and recharge your Fogstones.
 
-# Player Interactions
+# Player vs. Player
 
 > Keep your friends close.
 
-- This is a PvPvW game. The primary world design from the ground up is to encourage players to kill each other. The goal is to create long-term social and political PvP, using the world as a strategic medium.
-- PvP does not exist as game-defined rules or objectives. PvP sprouts from the ambitions of players and the natural risk vs. reward gameplay that the world creates through its inherently difficult and transient nature.
+- This is a PvPvW game. The world is designed from the ground up to encourage players to kill each other. The goal is to create long-term social and political PvP, using the world as a strategic medium.
+- PvP does not exist as game-defined rules, objectives, rewards, or win states. PvP sprouts from the ambitions of players and the natural risk vs. reward gameplay that the world creates through its inherently difficult and transient nature.
 - Open world PvP creates natural distrust between players, while also creating an incentive to form unlikely parties based on the specialized abilities someone else can bring to the table.
 - Fogstones and other light structures can be destroyed by other players at any time, and are the primary means of establishing routes for travel and trade, creating settlements and safe houses between major locations, and preventing Fog from destroying dungeons and resource nodes so they can be used long term for skilling, economy, or war logistics. This becomes the primary vehicle for PvP.
 - The world is difficult and widely unfriendly. Highly specialized allies ease the journey, but do not stop the clever solo player from hacking their own path through the wilderness.
@@ -174,15 +200,11 @@ tags:
 - Gatherable
 - Craftable
 
-# Character Building
-
-- NO gender or race locking due to classless progression.
-
 # Gearing & Itemization
 
 - Understanding gearing should be extremely straight forward.
 - Every piece of gear should have infinite replay value.
-- Gear should always be a tradeoff you make for particular encounters, environments, or economic
+- Gear should always be a tradeoff you make for particular encounters, environments, or economic reasons.
 - Gear should never have an "item level" associated with it.
 - NO item rarity on gear. Gear should serve a specific gameplay function that pertains to aiding or resisting each combat spec.
 - All gear should be modifiable to increase build variety rather than vertical power progression, such as increasing resistances or modifying ability mechanics to suit different combat playstyles.
