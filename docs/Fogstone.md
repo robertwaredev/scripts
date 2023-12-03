@@ -54,21 +54,24 @@ tags:
 - Resource System
 	- The Resource System limits the number of times any game event is fired by requiring the event to consume from a limited Resource Pool.
 	- Based on floats (decimal), designed for multiple events that require a complex, interactive consumption pool using smooth values.
-	- Allows for unlimited named Resource Pools, with passthrough to the HUD UI using a single Name key.
+	- Allows for unlimited named Resource Pools, with per-event passthrough to the HUD UI using a single Name key.
 		- Health, Mana, & Stamina Resource Pools created by default.
 	- Resource Pool modification is allowed or disallowed based on two generic toggles.
 		- The first one is to bypass the system, and can be set anywhere else in the game logic.
 		- The second one is to bypass the system when "out of combat", and is set dynamically when the player has not taken damage for a defined cooldown period.
-	- Works as one-shot or using Delta Seconds
+	- Works as one-shot or using Delta Seconds.
 - Movement Mechanics
-	- Sprinting
-		- Toggle for hold/press to sprint
-		- Only consumes Stamina in combat.
-	- Infinite jumping
-		- Includes a variable to limit max jumps, currently set to 3 jumps before needing to touch ground.
-		- Only consumes Stamina in combat.
-	- Doom Eternal style Dashing mechanic
-		- Always consumes Stamina.
+	- Infinite Sprinting
+		- Hold to sprint only at the moment.
+		- Set up to consume the Stamina Resource Pool by default.
+			- Only consumes Stamina in combat.
+	- Infinite Jumping
+		- Set up to consume Charges *and* the Stamina Resource Pool by default.
+			- Limited to three Charges by default, so three jumps.
+			- Only consumes Stamina in combat.
+	- Infinite Dashing
+		- Set up to consume the Stamina Resource Pool by default.
+			- Always consumes Stamina, even out of combat.
 		- Lateral movement only, not affected by camera pitch.
 		- Dash forward by default when there's no movement input.
 
