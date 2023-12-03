@@ -45,13 +45,15 @@ tags:
 		- Return to game, go to main menu, quit game.
 	- Basic Heads Up Display
 		- Updates according to the Resource System
+		- Diablo-style design
 - Charge System
 	- The Charge system limits the number of times any game event is fired by requiring the event to consume from a limited Charge Pool.
-	- Based on integers (non-decimal), designed for simple consumption pools requiring stepped values.
+	- Based on integers (non-decimal), designed for a single event that requires a simple consumption pool using stepped values.
 	- Dynamically assigns Charges based on simple math.
+	- Contains a "Reset Charges" execution to return consumed Charges to zero.
 - Resource System
 	- The Resource System limits the number of times any game event is fired by requiring the event to consume from a limited Resource Pool.
-	- Based on floats (decimal), designed for complex consumption pools requiring smooth values.
+	- Based on floats (decimal), designed for multiple events that require a complex, interactive consumption pool using smooth values.
 	- Allows for unlimited named Resource Pools, with passthrough to the HUD UI using a single Name key.
 		- Health, Mana, & Stamina Resource Pools created by default.
 	- Resource Pool modification is allowed or disallowed based on two generic toggles.
@@ -65,7 +67,7 @@ tags:
 	- Infinite jumping
 		- Includes a variable to limit max jumps, currently set to 3 jumps before needing to touch ground.
 		- Only consumes Stamina in combat.
-	- Doom Eternal style dashing mechanic
+	- Doom Eternal style Dashing mechanic
 		- Always consumes Stamina.
 		- Lateral movement only, not affected by camera pitch.
 		- Dash forward by default when there's no movement input.
