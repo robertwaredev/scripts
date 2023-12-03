@@ -47,11 +47,12 @@ tags:
 		- Updates according to the Resource System
 - Resource System
 	- The Resource System limits the number of times any game event is fired by requiring the event to consume from a limited Resource Pool.
-	- Allows for unlimited named resource pools, with passthrough to the HUD UI using a single Name key
-		- Health, Mana, & Stamina resource pools created by default
-	- Resource pool modification allowance detection based on death & combat status.
+	- Allows for unlimited named Resource Pools, with passthrough to the HUD UI using a single Name key.
+		- Health, Mana, & Stamina Resource Pools created by default.
+	- Resource Pool modification is allowed or disallowed based on two generic toggles.
+		- The first one is to bypass the system, and can be set anywhere else in the game logic.
+		- The second one is to bypass the system when "out of combat", and is set dynamically when the player has not taken damage for a defined cooldown period.
 	- Works as one-shot or using Delta Seconds
-		- Includes a manual enable/disable toggle using a variable.
 - Movement Mechanics
 	- Sprinting
 		- Toggle for hold/press to sprint
