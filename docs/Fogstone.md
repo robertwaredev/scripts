@@ -46,10 +46,11 @@ tags:
 	- Basic Heads Up Display
 		- Updates according to the Resource System
 - Resource System
+	- The Resource System limits the number of times any game event is fired by requiring the event to consume from a limited Resource Pool.
 	- Allows for unlimited named resource pools, with passthrough to the HUD UI using a single Name key
 		- Health, Mana, & Stamina resource pools created by default
+	- Resource pool modification allowance detection based on death & combat status.
 	- Works as one-shot or using Delta Seconds
-	- Stat regen and drain allowance detection based on death & combat status.
 		- Includes a manual enable/disable toggle using a variable.
 - Movement Mechanics
 	- Sprinting
