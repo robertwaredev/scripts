@@ -6,12 +6,65 @@ editing: true
 topic:
   - "[Video Games](Video%20Games.md)"
 created: 2023-11-10
-modified: 2023-11-22
+modified: 2023-12-03
 tags:
   - Video Games
 ---
 
 
+
+# Current Bugs
+
+- Resource system has issues
+	- Clamped , modified resource value does not match updated value.
+		- Seems like I'm removing the resource cost twice somehow
+			- Try removing clamping when modifying resource (leave before checks alone)
+	- Resource init needs checking, initial values not matching set values
+- Scrolling to change from first to third person breaks the camera toggle hotkey. Systems need unification.
+
+# To Do
+
+- Continuous jumping w/ bunny hopping (velocity acceleration)
+- Crouch slide
+- Wall running
+- Grappling hook
+- Zipline
+- Merge stat drain macros into one generic drain macro
+- Merge stat regen macros into one generic regen macro
+- Add base regen and base drain multiplier variables to allow for customizable regen amounts
+- Create regen and drain volumes like the pain causing volume
+- Remove setting vault height from event tick, put directly into vaulting execution flow
+- Options & keybinds menu
+
+# Implemented
+
+- User Interface
+	- Basic Main Menu
+		- Navigate to/from gameplay area
+	- Basic Escape Menu
+		- Return to game, go to main menu, quit game.
+	- Basic Heads Up Display
+		- Updates according to the Resource System
+- Resource System
+	- Allows for unlimited named resource pools, with passthrough to the HUD UI using a single Name key
+		- Health, Mana, & Stamina resource pools created by default
+	- Generic resource drain and regen macros
+		- Works as one-shot or with delta seconds
+	- Stat regen and drain allowance detection based on death & combat status.
+		- Includes a manual enable/disable toggle using a variable.
+- Movement Mechanics
+	- Sprinting
+		- Toggle for hold/press to sprint
+		- Only consumes Stamina in combat.
+	- Infinite jumping
+		- Includes a variable to limit max jumps, currently set to 3 jumps before needing to touch ground.
+		- Only consumes Stamina in combat.
+	- Doom Eternal style dashing mechanic
+		- Always consumes Stamina.
+		- Lateral movement only, not affected by camera pitch.
+		- Dash forward by default when there's no movement input.
+
+# Vertical Slice Map
 
 ![Foglight 1.png](../attachments/Foglight%201.png)
 
