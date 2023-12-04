@@ -19,6 +19,7 @@ tags:
 
 # To Do
 
+- Create more specific debug messaging for resource system which factors in the even that triggers the resource system.
 - Continuous jumping w/ bunny hopping (velocity acceleration)
 - Crouch slide
 - Wall running
