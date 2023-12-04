@@ -47,12 +47,11 @@ tags:
 		- Diablo-style design
 - Charge System
 	- The Charge system limits the number of times any game event is fired by requiring the event to consume from a limited Charge Pool.
-	- Based on integers (non-decimal), designed for a single event that requires a simple consumption pool using stepped values.
-	- Dynamically assigns Charges based on simple math.
+	- Based on integers (non-decimal), designed for a single input action that requires its own consumption pool.
 	- Contains a "Reset Charges" execution to return consumed Charges to zero.
 - Resource System
 	- The Resource System limits the number of times any game event is fired by requiring the event to consume from a limited Resource Pool.
-	- Based on floats (decimal), designed for multiple events that require a complex, interactive consumption pool using smooth values.
+	- Based on floats (decimal), designed for multiple input actions that require a shared consumption pool.
 	- Allows for unlimited named Resource Pools, with per-event passthrough to the HUD UI using a single Name key.
 		- Health, Mana, & Stamina Resource Pools created by default.
 	- Resource Pools can be capped to a maximum capacity dynamically, so all events that consume a Resource Pool will scale as the maximum capacity rises or falls.
