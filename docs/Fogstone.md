@@ -15,7 +15,7 @@ tags:
 
 # Current Bugs
 
-- Resource System pool clamping is not accurate
+- Resource System clamping is not accurate
 - Mouse scrolling to change from first to third person breaks the camera toggle hotkey. Systems need unification.
 
 # To Do
