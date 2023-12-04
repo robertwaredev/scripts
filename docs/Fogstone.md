@@ -6,7 +6,7 @@ editing: true
 topic:
   - "[Video Games](Video%20Games.md)"
 created: 2023-11-10
-modified: 2023-12-03
+modified: 2023-12-04
 tags:
   - Video Games
 ---
@@ -15,8 +15,6 @@ tags:
 
 # Current Bugs
 
-- Resource system has issues
-	- Delta Seconds works fine, Delta as 1 for some reason multiplies all modifier values by 2
 - Mouse scrolling to change from first to third person breaks the camera toggle hotkey. Systems need unification.
 
 # To Do
