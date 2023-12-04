@@ -45,6 +45,35 @@ tags:
 		- Return to game, go to main menu, quit game.
 	- Basic Heads Up Display
 		- Updates according to the Resource System
+		- Diablo-style design
+- Charge System
+	- The Charge system limits the number of times any game event is fired by requiring the event to consume from a limited Charge Pool.
+	- Based on integers (non-decimal), designed for a single event that requires a simple consumption pool using stepped values.
+	- Dynamically assigns Charges based on simple math.
+	- Contains a "Reset Charges" execution to return consumed Charges to zero.
+- Resource System
+	- The Resource System limits the number of times any game event is fired by requiring the event to consume from a limited Resource Pool.
+	- Based on floats (decimal), designed for multiple events that require a complex, interactive consumption pool using smooth values.
+	- Allows for unlimited named Resource Pools, with per-event passthrough to the HUD UI using a single Name key.
+		- Health, Mana, & Stamina Resource Pools created by default.
+	- Resource Pools can be capped to a maximum capacity dynamically, so all events that consume a Resource Pool will scale as the maximum value rises or falls.
+	- Resource Pool modification is allowed or disallowed based on two generic toggles.
+		- The first one is to bypass the system, and can be set anywhere else in the game logic.
+		- The second one is to bypass the system when "out of combat", and is set dynamically when the player has not taken damage for a defined cooldown period.
+	- Works as one-shot or using Delta Seconds.
+- Movement Mechanics
+	- Infinite Sprinting
+		- Hold to sprint only at the moment.
+		- Set up to consume the Stamina Resource Pool by default.
+			- Only consumes Stamina in combat.
+	- Infinite Jumping
+		- Set up to consume Charges *and* the Stamina Resource Pool by default.
+			- Limited to three Charges by default, so three jumps.
+			- Only consumes Stamina in combat.
+	- Infinite Dashing
+		- Set up to consume the Stamina Resource Pool by default.
+			- Always consumes Stamina, even out of combat.
+		- Lateral dashing only, not affected by camera pitch.
 - Resource System
 	- Allows for unlimited named resource pools, with passthrough to the HUD UI using a single Name key
 		- Health, Mana, & Stamina resource pools created by default
