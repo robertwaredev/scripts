@@ -74,6 +74,23 @@ tags:
 		- Set up to consume the Stamina Resource Pool by default.
 			- Always consumes Stamina, even out of combat.
 		- Lateral dashing only, not affected by camera pitch.
+- Resource System
+	- Allows for unlimited named resource pools, with passthrough to the HUD UI using a single Name key
+		- Health, Mana, & Stamina resource pools created by default
+	- Generic resource drain and regen macros
+		- Works as one-shot or with delta seconds
+	- Stat regen and drain allowance detection based on death & combat status.
+		- Includes a manual enable/disable toggle using a variable.
+- Movement Mechanics
+	- Sprinting
+		- Toggle for hold/press to sprint
+		- Only consumes Stamina in combat.
+	- Infinite jumping
+		- Includes a variable to limit max jumps, currently set to 3 jumps before needing to touch ground.
+		- Only consumes Stamina in combat.
+	- Doom Eternal style dashing mechanic
+		- Always consumes Stamina.
+		- Lateral movement only, not affected by camera pitch.
 		- Dash forward by default when there's no movement input.
 
 # Vertical Slice Map
