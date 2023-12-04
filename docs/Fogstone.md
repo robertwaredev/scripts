@@ -20,6 +20,7 @@ tags:
 
 # To Do
 
+- Set up Resource System dynamically getting values based on input action maps.
 - Create more specific debug messaging for resource system which factors in the event that triggers the resource system.
 - Update Charge System debug messaging to match the style of the Resource System.
 - Create generic map of debug message toggles.
