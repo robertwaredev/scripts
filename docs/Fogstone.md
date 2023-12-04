@@ -20,15 +20,13 @@ tags:
 # To Do
 
 - Create more specific debug messaging for resource system which factors in the even that triggers the resource system.
+- Update Charge System debug messaging to match the style of the Resource System.
 - Continuous jumping w/ bunny hopping (velocity acceleration)
 - Crouch slide
 - Wall running
 - Grappling hook
 - Zipline
-- Merge stat drain macros into one generic drain macro
-- Merge stat regen macros into one generic regen macro
-- Add base regen and base drain multiplier variables to allow for customizable regen amounts
-- Create regen and drain volumes like the pain causing volume
+- Create resource modifier volumes like the pain causing volume
 - Remove setting vault height from event tick, put directly into vaulting execution flow
 - Options & keybinds menu
 
