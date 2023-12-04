@@ -15,11 +15,12 @@ tags:
 
 # Current Bugs
 
+- Resource System does not regenerate to the resource pool capacity, only to about .15 below it. Solution to be found in the max clamping macro?
 - Mouse scrolling to change from first to third person breaks the camera toggle hotkey. Systems need unification.
 
 # To Do
 
-- Create more specific debug messaging for resource system which factors in the even that triggers the resource system.
+- Create more specific debug messaging for resource system which factors in the event that triggers the resource system.
 - Update Charge System debug messaging to match the style of the Resource System.
 - Continuous jumping w/ bunny hopping (velocity acceleration)
 - Crouch slide
