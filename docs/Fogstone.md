@@ -17,7 +17,7 @@ tags:
 
 - Resource system has issues
 	- Delta Seconds works fine, Delta as 1 for some reason multiplies all modifier values by 2
-- Scrolling to change from first to third person breaks the camera toggle hotkey. Systems need unification.
+- Mouse scrolling to change from first to third person breaks the camera toggle hotkey. Systems need unification.
 
 # To Do
 
