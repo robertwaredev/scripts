@@ -15,19 +15,22 @@ tags:
 
 # Current Bugs
 
-- Resource System does not regenerate to the resource pool capacity, only to about .15 below it. Solution to be found in the max clamping macro?
+- Resource System pool clamping is not accurate
 - Mouse scrolling to change from first to third person breaks the camera toggle hotkey. Systems need unification.
 
 # To Do
 
 - Create more specific debug messaging for resource system which factors in the event that triggers the resource system.
 - Update Charge System debug messaging to match the style of the Resource System.
+- Create generic map of debug message toggles.
+- Create generic map of resource regeneration toggles.
+- Create generic map of status effect toggles, like for checking death, stunned, god mode, etc.
+- Create resource modifier volumes like the pain causing volume, but for any resource pool.
 - Continuous jumping w/ bunny hopping (velocity acceleration)
 - Crouch slide
 - Wall running
 - Grappling hook
 - Zipline
-- Create resource modifier volumes like the pain causing volume
 - Remove setting vault height from event tick, put directly into vaulting execution flow
 - Options & keybinds menu
 
