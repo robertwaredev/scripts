@@ -6,7 +6,7 @@ editing: true
 topic:
   - "[Video Games](Video%20Games.md)"
 created: 2023-11-10
-modified: 2023-12-04
+modified: 2023-12-06
 tags:
   - Video Games
 ---
@@ -20,11 +20,8 @@ tags:
 
 # To Do
 
-- Set up Resource System dynamically getting values based on input action maps.
-- Create more specific debug messaging for resource system which factors in the event that triggers the resource system.
 - Update Charge System debug messaging to match the style of the Resource System.
 - Create generic map of debug message toggles.
-- Create generic map of resource regeneration toggles.
 - Create generic map of status effect toggles, like for checking death, stunned, god mode, etc.
 - Create resource modifier volumes like the pain causing volume, but for any resource pool.
 - Continuous jumping w/ bunny hopping (velocity acceleration)
@@ -47,17 +44,14 @@ tags:
 		- Diablo-style design
 - Charge System
 	- The Charge system limits the number of times any game event is fired by requiring the event to consume from a limited Charge Pool.
-	- Based on integers (non-decimal), designed for a single input action that requires its own consumption pool.
-	- Contains a "Reset Charges" execution to return consumed Charges to zero.
+	- Designed for a single input action that requires its own consumption pool.
 - Resource System
 	- The Resource System limits the number of times any game event is fired by requiring the event to consume from a limited Resource Pool.
-	- Based on floats (decimal), designed for multiple input actions that require a shared consumption pool.
-	- Allows for unlimited named Resource Pools, with per-event passthrough to the HUD UI using a single Name key.
+	- Designed for multiple input actions that require a shared consumption pool.
+	- Allows for unlimited enumerated Resource Pools, with per-event passthrough to the HUD UI.
 		- Health, Mana, & Stamina Resource Pools created by default.
-	- Resource Pools can be capped to a maximum capacity dynamically, so all events that consume a Resource Pool will scale as the maximum capacity rises or falls.
-	- Resource Pool modification is allowed or disallowed based on two generic toggles.
-		- The first one is to bypass the system, and can be set anywhere else in the game logic.
-		- The second one is to bypass the system when "out of combat", and is set dynamically when the player has not taken damage for a defined cooldown period.
+	- Resource Pools can dynamically change capacity, so all events that consume a Resource Pool will scale as the capacity rises or falls.
+	- Resource Pool modification regeneration is allowed or disallowed based combat status.
 	- Works as one-shot or using Delta Seconds.
 - Movement Mechanics
 	- Infinite Sprinting
