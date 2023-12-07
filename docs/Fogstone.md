@@ -22,7 +22,6 @@ tags:
 
 - Update Charge System debug messaging to match the style of the Resource System.
 - Create generic map of debug message toggles.
-- Create generic map of status effect toggles, like for checking death, stunned, god mode, etc.
 - Create resource modifier volumes like the pain causing volume, but for any resource pool.
 - Continuous jumping w/ bunny hopping (velocity acceleration)
 - Crouch slide
@@ -43,14 +42,14 @@ tags:
 		- Updates according to the Resource System
 		- Diablo-style design
 - Charge System
-	- The Charge system limits the number of times any game event is fired by requiring the event to consume from a limited Charge Pool.
+	- The Charge system limits the number of times any input action is fired by requiring the input action to consume from a limited Charge Pool.
 	- Designed for a single input action that requires its own consumption pool.
 - Resource System
-	- The Resource System limits the number of times any game event is fired by requiring the event to consume from a limited Resource Pool.
+	- The Resource System limits the number of times any input action is fired by requiring the input action to consume from a limited Resource Pool.
 	- Designed for multiple input actions that require a shared consumption pool.
-	- Allows for unlimited enumerated Resource Pools, with per-event passthrough to the HUD UI.
+	- Allows for unlimited enumerated Resource Pools, with passthrough to the HUD UI.
 		- Health, Mana, & Stamina Resource Pools created by default.
-	- Resource Pools can dynamically change capacity, so all events that consume a Resource Pool will scale as the capacity rises or falls.
+	- Resource Pools can dynamically change capacity, so all input actions that consume a Resource Pool will scale as the capacity rises or falls.
 	- Resource Pool modification regeneration is allowed or disallowed based combat status.
 	- Works as one-shot or using Delta Seconds.
 - Movement Mechanics
