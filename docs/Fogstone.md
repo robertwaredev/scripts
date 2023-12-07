@@ -16,6 +16,7 @@ tags:
 # Current Bugs
 
 - Resource System clamping is not accurate
+- Dashing is broken in third person, does not respect orientation of player character.
 - Mouse scrolling to change from first to third person breaks the camera toggle hotkey. Systems need unification.
 
 # To Do
