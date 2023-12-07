@@ -6,7 +6,7 @@ editing: true
 topic:
   - "[Video Games](Video%20Games.md)"
 created: 2023-11-10
-modified: 2023-12-06
+modified: 2023-12-07
 tags:
   - Video Games
 ---
@@ -21,6 +21,10 @@ tags:
 
 # To Do
 
+- Set up version control on Github.
+- Fix camera system.
+- Make everything work in first and third person.
+- Make the dash not suck when dashing on slopes
 - Update Charge System debug messaging to match the style of the Resource System.
 - Create generic map of debug message toggles.
 - Create resource modifier volumes like the pain causing volume, but for any resource pool.
