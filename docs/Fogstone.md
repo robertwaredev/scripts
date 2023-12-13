@@ -15,9 +15,8 @@ tags:
 
 # Current Bugs
 
-- Stamina regen is still disabled, even when consumption is disabled out of combat.
+- Dashing direction is inconsistent on repeated dashes.
 - Consumption Pool System clamping is not accurate (double check)
-- Dashing is broken in third person, does not respect orientation of player character.
 - Mouse scrolling to change from first to third person breaks the camera toggle hotkey. Systems need unification.
 
 # To Do
