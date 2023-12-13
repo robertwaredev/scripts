@@ -15,6 +15,7 @@ tags:
 
 # Current Bugs
 
+- Crouching tag gate is broken.
 - Dashing direction is inconsistent on repeated dashes.
 - Consumption Pool System clamping is not accurate (double check)
 - Mouse scrolling to change from first to third person breaks the camera toggle hotkey. Systems need unification.
@@ -22,6 +23,7 @@ tags:
 # To Do
 
 - Set up version control on Github.
+- Convert dashing to use Add Force instead of Set Location
 - Fix camera system.
 - Make everything work in first and third person.
 - Make the dash not suck when dashing on slopes
