@@ -25,9 +25,7 @@ tags:
 - Set up version control on Github.
 - Convert dashing to use Add Force instead of Set Location
 - Fix camera system.
-- Make everything work in first and third person.
 - Make the dash not suck when dashing on slopes
-- Update Charge System debug messaging to match the style of the Consumption Pool System.
 - Create generic map of debug message toggles.
 - Create Consumption Pool modifier volumes like the pain causing volume, but for any Consumption Pool.
 - Continuous jumping w/ bunny hopping (velocity acceleration)
@@ -35,7 +33,8 @@ tags:
 - Wall running
 - Grappling hook
 - Zipline
-- Remove setting vault height from event tick, put directly into vaulting execution flow
+- Vaulting
+	- Remove setting vault height from event tick, put directly into vaulting execution flow
 - Options & keybinds menu
 
 # Implemented
