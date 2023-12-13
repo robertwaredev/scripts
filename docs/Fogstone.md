@@ -15,7 +15,7 @@ tags:
 
 # Current Bugs
 
-- Uncrouching is broken.
+- Sprint stamina regen is broken out of combat.
 - Dashing direction is inconsistent on repeated dashes.
 - Consumption Pool System clamping is not accurate (double check)
 - Mouse scrolling to change from first to third person breaks the camera toggle hotkey. Systems need unification.
