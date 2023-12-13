@@ -6,7 +6,7 @@ editing: true
 topic:
   - "[Video Games](Video%20Games.md)"
 created: 2023-11-10
-modified: 2023-12-07
+modified: 2023-12-13
 tags:
   - Video Games
 ---
@@ -15,7 +15,8 @@ tags:
 
 # Current Bugs
 
-- Resource System clamping is not accurate
+- Stamina regen is still disabled, even when consumption is disabled out of combat.
+- Consumption Pool System clamping is not accurate (double check)
 - Dashing is broken in third person, does not respect orientation of player character.
 - Mouse scrolling to change from first to third person breaks the camera toggle hotkey. Systems need unification.
 
@@ -25,9 +26,9 @@ tags:
 - Fix camera system.
 - Make everything work in first and third person.
 - Make the dash not suck when dashing on slopes
-- Update Charge System debug messaging to match the style of the Resource System.
+- Update Charge System debug messaging to match the style of the Consumption Pool System.
 - Create generic map of debug message toggles.
-- Create resource modifier volumes like the pain causing volume, but for any resource pool.
+- Create Consumption Pool modifier volumes like the pain causing volume, but for any Consumption Pool.
 - Continuous jumping w/ bunny hopping (velocity acceleration)
 - Crouch slide
 - Wall running
@@ -44,33 +45,36 @@ tags:
 	- Basic Escape Menu
 		- Return to game, go to main menu, quit game.
 	- Basic Heads Up Display
-		- Updates according to the Resource System
+		- Updates according to the Consumption Pool System
 		- Diablo-style design
-- Charge System
-	- The Charge system limits the number of times any input action is fired by requiring the input action to consume from a limited Charge Pool.
-	- Designed for a single input action that requires its own consumption pool.
-- Resource System
-	- The Resource System limits the number of times any input action is fired by requiring the input action to consume from a limited Resource Pool.
-	- Designed for multiple input actions that require a shared consumption pool.
-	- Allows for unlimited enumerated Resource Pools, with passthrough to the HUD UI.
-		- Health, Mana, & Stamina Resource Pools created by default.
-	- Resource Pools can dynamically change capacity, so all input actions that consume a Resource Pool will scale as the capacity rises or falls.
-	- Resource Pool modification regeneration is allowed or disallowed based combat status.
-	- Works as one-shot or using Delta Seconds.
-- Movement Mechanics
+- Gameplay Tag State Machine
+	- Limits events and input actions based on current tags.
+	- Tables for developer tools, player states, and movements states.
+- Player Locomotion
 	- Infinite Sprinting
 		- Hold to sprint only at the moment.
-		- Set up to consume the Stamina Resource Pool by default.
+		- Set up to consume the Stamina Consumption Pool by default.
 			- Only consumes Stamina in combat.
 	- Infinite Jumping
-		- Set up to consume Charges *and* the Stamina Resource Pool by default.
+		- Set up to consume Charges *and* the Stamina Consumption Pool by default.
 			- Limited to three Charges by default, so three jumps.
 			- Only consumes Stamina in combat.
 	- Infinite Dashing
-		- Set up to consume the Stamina Resource Pool by default.
+		- Set up to consume the Stamina Consumption Pool by default.
 			- Always consumes Stamina, even out of combat.
 		- Lateral dashing only, not affected by camera pitch.
 		- Dash forward by default when there's no movement input.
+- Charge Pool System
+	- The Charge Pool system limits the number of times any input action is fired by requiring the input action to consume from a limited Charge Pool.
+	- Designed for a single input action that requires its own consumption pool.
+- Consumption Pool System
+	- The Consumption Pool System limits the number of times any input action is fired by requiring the input action to consume from a limited Consumption Pool.
+	- Designed for multiple input actions that require a shared consumption pool.
+	- Allows for unlimited enumerated Consumption Pools, with passthrough to the HUD UI.
+		- Health, Mana, & Stamina Consumption Pools created by default.
+	- Consumption Pools can dynamically change capacity, so all input actions that consume a Consumption Pool will scale as the capacity rises or falls.
+	- Consumption Pool modification regeneration is allowed or disallowed based combat status.
+	- Works as one-shot or using Delta Seconds.
 
 # Vertical Slice Map
 
@@ -160,7 +164,7 @@ tags:
 > Never assume sanity.
 
 - Fog falls perpetually from the leaves of the World Tree, a storm of creative and destructive energy which drifts across the land, scouring and re-shaping everything it touches, acting as a primordial, chaotic force of manifestation. (Procedural Regeneration)
-- Fog itself is the most important resource, and is gathered and condensed down to form Fogstones, which emit light that wards the effects of Fog, known as Foglight.
+- Fog itself is the most important Consumption Pool, and is gathered and condensed down to form Fogstones, which emit light that wards the effects of Fog, known as Foglight.
 - Fog comes with the challenge of hallucinations, shifting environments, randomly mutated enemies, spontaneous player translocation, wormhole apparition, temporary quantum entanglement, evil twins from parallel universes, and much more.
 - Fog is made up of many "exclusion zone" style storms that roam the land, and is only survived by the most knowledgeable and well-prepared.
 
@@ -216,7 +220,7 @@ tags:
 - Fog cannot be dissipated by natural light like darkness can.
 - The chaotic effects of Fog are only negated by Foglight.
 - Everything which is unlit by Foglight will be scoured by Fog, which constantly roams the land and *changes* everything, procedurally destroying and creating areas completely anew.
-- Everything which is lit by Foglight is left untouched by the effects of Fog, allowing players to create pockets of relative safety in which settlements, travel routes, resource farms, and more may be formed.
+- Everything which is lit by Foglight is left untouched by the effects of Fog, allowing players to create pockets of relative safety in which settlements, travel routes, Consumption Pool farms, and more may be formed.
 - As a Fog dweller, you'll have to roll without using Fogstones if you want the high rewards for your high risk, using only expendable light sources to guide you, if any light at all.
 
 ### Fogstones vs Overworld
@@ -241,7 +245,7 @@ tags:
 - This is a PvPvW game. The world is designed from the ground up to encourage players to kill each other. The goal is to create long-term social and political PvP, using the world as a strategic medium.
 - PvP does not exist as game-defined rules, objectives, rewards, or win states. PvP sprouts from the ambitions of players and the natural risk vs. reward gameplay that the world creates through its inherently difficult and transient nature.
 - Open world PvP creates natural distrust between players, while also creating an incentive to form unlikely parties based on the specialized abilities someone else can bring to the table.
-- Fogstones and other light structures can be destroyed by other players at any time, and are the primary means of establishing routes for travel and trade, creating settlements and safe houses between major locations, and preventing Fog from destroying dungeons and resource nodes so they can be used long term for skilling, economy, or war logistics. This becomes the primary vehicle for PvP.
+- Fogstones and other light structures can be destroyed by other players at any time, and are the primary means of establishing routes for travel and trade, creating settlements and safe houses between major locations, and preventing Fog from destroying dungeons and Consumption Pool nodes so they can be used long term for skilling, economy, or war logistics. This becomes the primary vehicle for PvP.
 - The world is difficult and widely unfriendly. Highly specialized allies ease the journey, but do not stop the clever solo player from hacking their own path through the wilderness.
 
 # Dungeons
@@ -249,12 +253,12 @@ tags:
 > Hold your ground.
 
 - Dungeons are randomly created and destroyed within Fog storms.
-- Dungeons offer a sort of settlement opportunity, with players contributing time and resources to build up the difficulty and scale of the dungeon, as well as building greater defenses and weaponry to protect from other groups of players looking to control the area.
-- Dungeons are not "cleared" but rather continuously spawn enemies that must be held at bay, and grow in scope the more they are progressed, making dungeons more akin to a growing resource farm.
+- Dungeons offer a sort of settlement opportunity, with players contributing time and Consumption Pools to build up the difficulty and scale of the dungeon, as well as building greater defenses and weaponry to protect from other groups of players looking to control the area.
+- Dungeons are not "cleared" but rather continuously spawn enemies that must be held at bay, and grow in scope the more they are progressed, making dungeons more akin to a growing Consumption Pool farm.
 
-# Resource Acquisition
+# Consumption Pool Acquisition
 
-> Resources exist in the following forms:
+> Consumption Pools exist in the following forms:
 
 - Mineable
 - Harvestable
