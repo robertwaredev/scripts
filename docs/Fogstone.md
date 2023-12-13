@@ -15,7 +15,7 @@ tags:
 
 # Current Bugs
 
-- Crouching tag gate is broken.
+- Uncrouching is broken.
 - Dashing direction is inconsistent on repeated dashes.
 - Consumption Pool System clamping is not accurate (double check)
 - Mouse scrolling to change from first to third person breaks the camera toggle hotkey. Systems need unification.
