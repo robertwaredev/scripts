@@ -15,13 +15,13 @@ tags:
 
 # Current Bugs
 
-- Sprint stamina regen is broken out of combat.
 - Dashing direction is inconsistent on repeated dashes.
 - Consumption Pool System clamping is not accurate (double check)
 - Mouse scrolling to change from first to third person breaks the camera toggle hotkey. Systems need unification.
 
 # To Do
 
+- Make crouch sliding respect input vector
 - Set up version control on Github.
 - Convert dashing to use Add Force instead of Set Location
 - Fix camera system.
@@ -59,6 +59,8 @@ tags:
 		- Set up to consume Charges *and* the Stamina Consumption Pool by default.
 			- Limited to three Charges by default, so three jumps.
 			- Only consumes Stamina in combat.
+	- Crouching & Crouch Slide
+		- Crouch while in air or not sprinting, slide if grounded and sprinting
 	- Infinite Dashing
 		- Set up to consume the Stamina Consumption Pool by default.
 			- Always consumes Stamina, even out of combat.
